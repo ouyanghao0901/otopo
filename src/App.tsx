@@ -1,26 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/index.scss'
+import './App.module.scss'
+// import Comp from './fabricApi/01.不可交互图形'
+// import Comp from './fabricApi/02.可交互图形'
+// import Comp from './fabricApi/03.设定画布参数'
+import Comp from './fabricApi/04.拉伸画布'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Comp />
+    </>
+  )
 }
 
-export default App;
+export default App
